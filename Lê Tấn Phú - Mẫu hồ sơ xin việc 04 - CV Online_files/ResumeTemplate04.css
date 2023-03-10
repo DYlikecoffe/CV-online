@@ -1,0 +1,100 @@
+﻿body {
+    font-family: 'Merriweather', serif;
+}
+
+#hd {
+    border:none;
+}
+
+#hd h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.yui-gf div.first {
+    width: 100%;
+}
+
+.yui-gf .yui-u {
+    width: 100%;
+}
+
+li {
+    line-height: 24px;
+    border: none;
+}
+
+.first h2 {
+    font-style: italic;
+    font-weight: bold;
+    color: #073498;
+}
+
+#ft {
+    padding: 1em 0 5em 0;
+    font-size: 92%;
+    border-top: none;
+    text-align: center;
+}
+
+.info {
+    width: 100%;
+}
+
+.hinhanh {
+    width: 33.3333%;
+    float: left;
+    padding: 15px;
+}
+
+.avatar {
+    /* width: 100%; */
+    border: solid 1px #d2d5d6;
+    border-radius: 15px;
+    max-height: 310px;
+}
+
+.thongtin {
+    width: 66.6666%;
+    float: left;
+    padding: 15px;
+}
+
+@media print {
+
+    .col-lg-4 {
+        width: 33.33333333%;
+    }
+
+    .col-lg-8 {
+        width: 66.66666667%;
+    }
+
+    #inner {
+        padding: 10px 10px;
+        margin: 10px auto;
+        background: #f5f5f5;
+        border: solid #666;
+        border-width: 8px 0 2px 0;
+    }
+
+    #hd h1 {
+        font-size: 30px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    #hd h2 {
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .contact-info h3{
+        font-size:12px;
+    }
+}
